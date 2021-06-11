@@ -1,0 +1,201 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #374b5c;
+    width: inherit;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+}
+
+.header{
+    width: 100vw;
+    height: 768px;
+    padding: 19px 0 0 139px;
+    background-image: linear-gradient(to bottom, #f1fefe, #ffffff);
+    position: relative;
+    min-width: 1366px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 117px;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-brand img{
+    width: 75px;
+    height: 70px;
+}
+
+.navbar-brand h2{
+    width: 148px;
+    height: 56px;
+    margin-left: 9.5px;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+}
+
+.navbar-link-contact{
+    width: 141px;
+    height: 46px;
+    padding: 12px 48px 13px 38px;
+    border-radius: 10px;
+    border: solid 2px #00dbd0;
+}
+
+.navbar-links a{
+    width: 62px;
+    height: 21px;
+    margin-left: 54px;
+    font-size: 16px;
+}
+
+.heading h1{
+    width: 500px;
+    height: 74px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.32;
+    margin: 0;
+    /* letter-spacing: 2px; */
+}
+
+.heading h3{
+    margin: 158.9px 308px 0 0;
+    text-align: left;
+    width: 256px;
+    height: 48px;
+}
+
+.heading p{
+    width: 389px;
+    height: 54px; 
+    margin: 35px 175px 35px 0;  
+    font-size: 20px;  
+    font-weight: normal;  
+    font-stretch: normal;  
+    font-style: normal;  
+    line-height: 1.35;  
+    letter-spacing: normal;
+    text-align: left;  
+}
+
+.heading button{
+    width: 220px;
+    height: 54px;  
+    margin: 0 344px 115px 0;  
+    border-radius: 10px;  
+    border: none;
+    background-color: #00dbd0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    font-stretch: normal;
+    cursor: pointer;
+}
+
+.flower{
+    position: absolute;
+    top: 292px;
+    right: 337px;
+    width: 419px;
+    height: 570px;
+    z-index: 1;
+}
+
+.header .design{
+    position: absolute;
+    width: 350px;
+    height: 340px;
+    border: solid 3px #00dbd0;
+    padding: 64.5px 65.3px 65px 66px;
+    top: 299px;
+    right: 156px;
+}
+
+.product{
+    padding: 100.6px 139px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-img{
+    width: 57px;
+    height: 47px;
+}
+
+.product h3{
+    width: 309px;
+    height: 48px;
+    margin: 14.5px 62px 19px 13px;
+}
+
+p{
+    width: 568px;
+    height: 42px;
+    margin: 19px 19.3px 82.1px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.product-list, .mention-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mention{
+    margin: 82px 0 101px;
+    padding: 79px 139px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mention h3{
+    width: 339px;
+    height: 48px;
+}
+
+.mention-img-one{
+    width: 100px;
+    height: 132px;
+}
+
+.mention-img-two{
+    width: 116px;
+    height: 126px;
+}
+
+.mention-img-three{
+    width: 178px;
+    height: 80px;
+}
