@@ -5,14 +5,14 @@ import foodSelect from "../images/Group205.png"
 
 function Product() {
     return (<section className="product">
-        <img className="product-img" src={leaf} alt="Leaf Image" />
+        <img className="product-img" src={leaf} alt="Leaf Logo" />
         <h3>Welcome to Nature</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div className="product-list">
-            <img src={food} alt="Food Image" />
-            <img src={foodSelect} alt="Food Image" />
-            <img src={food} alt="Food Image" />
-            <img src={food} alt="Food Image" />
+            <img src={food} alt="Food Product" />
+            <img src={foodSelect} alt="Food Product" />
+            <img src={food} alt="Food Product" />
+            <img src={food} alt="Food Product" />
         </div>
     </section>
     )

@@ -2,6 +2,7 @@ import React from "react"
 import greenaryOne from "../images/Group39.png"
 import greenaryTwo from "../images/Group55.png"
 import ecoDesign from "../images/Group64.png"
+import Dots from "./Dots"
 
 function Mention() {
     return (<section className="mention">
@@ -14,6 +15,7 @@ function Mention() {
             <img className="mention-img-two" src={ecoDesign} alt="Eco Design logo 2" />
             <img className="mention-img-one" src={greenaryOne} alt="The Greenary logo 1" />
         </div>
+        <Dots />
     </section>
     )
 }

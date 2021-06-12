@@ -6,15 +6,15 @@ function Header() {
     return (<section className="header">
         <header className="navbar">
             <div className="navbar-brand">
-                <img src={design} alt="Design image" />
+                <img src={design} alt="Design logo" />
                 <h2>organic</h2>
             </div>
             <div className="navbar-links">
-                <a>Home</a>
-                <a>Products</a>
-                <a>Blog</a>
-                <a>About Us</a>
-                <a className="navbar-link-contact">Contact</a>
+                <a href="/" >Home</a>
+                <a href="/" >Products</a>
+                <a href="/" >Blog</a>
+                <a href="/" >About Us</a>
+                <a href="/"  className="navbar-link-contact">Contact</a>
             </div>
         </header>
         <div className="heading">
@@ -23,8 +23,8 @@ function Header() {
             <p>Vegetables are the edible parts of a plant that is used in cooking or can be eaten now.</p>
             <button>Explore Now</button>
         </div>
-        <img className="flower" src={flower} alt="Flower image"/>
-        <img className="design" src={design} alt="Design image"/>
+        <img className="flower" src={flower} alt="Flower logo"/>
+        <img className="design" src={design} alt="Design logo"/>
     </section>)
 }
 
