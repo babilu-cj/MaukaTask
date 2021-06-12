@@ -4,7 +4,7 @@ import blogitems from "./blogitems"
 import BlogItem from "./BlogItem"
 
 function Blog() {
-    return (<section className="blog">
+    return (<section className="blog" id="blog">
         <img className="product-img" src={leaf} alt="Leaf Logo" />
         <h3>Read Our Blog</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
