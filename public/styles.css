@@ -1,10 +1,10 @@
-* { 
+*  { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body  {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #374b5c;
@@ -12,7 +12,7 @@ body{
     min-width: 1366px;
 }
 
-h3{
+h3  {
     font-size: 36px;
     font-weight: normal;
     font-stretch: normal;
@@ -21,14 +21,14 @@ h3{
     letter-spacing: normal;
 }
 
-.header{
+.header  {
     height: 768px;
     padding: 19px 0 0 139px;
     background-image: linear-gradient(to bottom, #f1fefe, #ffffff);
     position: relative;
 }
 
-.navbar{
+.navbar  {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,18 +36,18 @@ h3{
     padding-right: 117px;
 }
 
-.navbar-brand{
+.navbar-brand  {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.navbar-brand img{
+.navbar-brand img  {
     width: 75px;
     height: 70px;
 }
 
-.navbar-brand h2{
+.navbar-brand h2  {
     width: 148px;
     height: 56px;
     margin-left: 9.5px;
@@ -59,7 +59,7 @@ h3{
     letter-spacing: normal;
 }
 
-.navbar-link-contact{
+.navbar-link-contact  {
     width: 141px;
     height: 46px;
     padding: 12px 48px 13px 38px;
@@ -67,14 +67,15 @@ h3{
     border: solid 2px #00dbd0;
 }
 
-.navbar-links a{
+.navbar-links a  {
     width: 62px;
     height: 21px;
     margin-left: 54px;
     font-size: 16px;
+    color: #374b5c;
 }
 
-.heading h1{
+.heading h1  {
     width: 500px;
     height: 74px;
     font-size: 50px;
@@ -84,14 +85,14 @@ h3{
     margin: 0;
 }
 
-.heading h3{
+.heading h3  {
     margin: 158.9px 308px 0 0;
     text-align: left;
     width: 256px;
     height: 48px;
 }
 
-.heading p{
+.heading p  {
     width: 389px;
     height: 54px; 
     margin: 35px 175px 35px 0;  
@@ -104,7 +105,7 @@ h3{
     text-align: left;  
 }
 
-.heading button{
+.heading button  {
     width: 220px;
     height: 54px;  
     margin: 0 344px 115px 0;  
@@ -118,7 +119,7 @@ h3{
     cursor: pointer;
 }
 
-.flower{
+.flower  {
     position: absolute;
     top: 292px;
     right: 337px;
@@ -127,7 +128,7 @@ h3{
     z-index: 1;
 }
 
-.header .design{
+.header .design  {
     position: absolute;
     width: 350px;
     height: 340px;
@@ -137,25 +138,25 @@ h3{
     right: 156px;
 }
 
-.product{
+.product  {
     padding: 100.6px 139px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.product-img{
+.product-img  {
     width: 57px;
     height: 47px;
 }
 
-.product h3{
+.product h3  {
     width: 309px;
     height: 48px;
     margin: 14.5px 62px 19px 13px;
 }
 
-p{
+p  {
     width: 568px;
     height: 42px;
     margin: 19px 19.3px 82.1px;
@@ -163,14 +164,14 @@ p{
     text-align: center;
 }
 
-.product-list, .mention-list{
+.product-list, .mention-list  {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
 
-.mention{
+.mention  {
     margin: 82px 0 101px;
     padding: 79px 139px 36px;
     display: flex;
@@ -178,51 +179,52 @@ p{
     align-items: center;
 }
 
-.mention h3{
+.mention h3  {
     width: 339px;
     height: 48px;
 }
 
-.mention-img-one{
+.mention-img-one  {
     width: 100px;
     height: 132px;
 }
 
-.mention-img-two{
+.mention-img-two  {
     width: 116px;
     height: 126px;
 }
 
-.mention-img-three{
+.mention-img-three  {
     width: 178px;
     height: 80px;
 }
 
-.dots{
+.dots  {
     margin: 70px 0 0;
 }
 
-.dots span{
+.dots span  {
     height: 10px;
     width: 10px;
     background-color: #374b5c;
     border-radius: 50%;
     display: inline-block;
     margin: 0 9px;
+    border: none;
 }
 
-.dots .dot{
+.dots .dot {
     background-color: #00dbd0;
 }
 
-.testimonial{
+.testimonial {
     padding: 0 139px 36px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.dp{
+.dp {
     margin: 30px 143.4px 18.5px 143px;
     width: 97.6px;
     height: 97.6px;
@@ -230,26 +232,41 @@ p{
     border-radius: 50%;
 }
 
-.dp img{
+.dp img {
     width: 100%;
     height: auto;
 }
 
-h6{
-    width: 115px;
+.testimonial h6 {
+    text-align: center;
+    width: 130px;
     height: 35px;
     font-size: 26px;
     font-weight: normal;
 }
 
-.testimonial p{
+.rating {
+    margin: 16px 7px 0;
+    color: #00dbd0;
+    transform: scale(1.2);
+}
+
+.testimonial p {
     width: 542px;
     height: 101px;
-    margin: 20px 32.3px 22px;
+    margin: 20px 32.3px 28px;
     line-height: 2.5;
 }
 
-.subscribe{
+.carousel li {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin: 0 7px 0 8px;
+    background-color: #00dbd0;
+}
+
+.subscribe {
     padding: 0 139px 36px;
     margin: 207px auto 117px;
     display: flex;
@@ -258,13 +275,13 @@ h6{
     position: relative;
 }
 
-.subscribe p{
+.subscribe p {
     width: 568px;
     height: 42px;
     margin: 19px auto 66px;
 }
 
-.subscription{
+.subscription {
     width: 569px;
     height: 69px;
     padding: 0 0 0 56.5px;
@@ -272,12 +289,12 @@ h6{
     justify-content: space-between;
 }
 
-.subscription input{
+.subscription input {
     border: none;
     font-size: 18px;
 }
 
-.subscription button{
+.subscription button {
     width: 167px;
     height: 69px;
     padding: 21px 45.5px 24px;
@@ -288,7 +305,7 @@ h6{
     font-size: 18px;
 }
 
-.subscribe img{
+.subscribe img {
     position: absolute;
     left: -910px;
     bottom: -150px;
@@ -297,33 +314,33 @@ h6{
     z-index: -1;
 }
 
-.blog{
+.blog {
     padding: 0 139px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.blog h3{
+.blog h3 {
     width: 230px;
     height: 48px;
     margin: 14.5px auto 19px;
 }
 
-.blog p{
+.blog p {
     width: 568px;
     height: 42px;
     margin: 0 auto 80px;
 }
 
-.blog-posts{
+.blog-posts {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.blog-item{
+.blog-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,14 +350,14 @@ h6{
     margin: 0 26px;
 }
 
-.blog-item img{
+.blog-item img {
     width: 278px;
     height: 195px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.blog-item h6{
+.blog-item h6 {
     width: inherit;
     text-align: center;
     margin: 18px auto 9px;
@@ -348,14 +365,14 @@ h6{
     color: #00dbd0;
 }
 
-.blog-item p{
+.blog-item p {
     width: 70%;
     height: 57px;
     margin: 0 44px 11px;
     font-size: 14px;
 }
 
-.blog-item button{
+.blog-item button {
     width: 70px;
     height: 19px;
     font-size: 14px;
@@ -363,18 +380,18 @@ h6{
     background: none;
 }
 
-.blog-item span{
+.blog-item span {
     width: 36px;
     height: 0;
     border-top: 3px solid #00dbd0;
     margin: 10px 0 0;
 }
 
-span:hover{
+span:hover {
     border-top: 3px solid #00a199;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -387,17 +404,17 @@ span:hover{
     color: #ffffff;
 }
 
-.footer-left{
+.footer-left {
     display: flex;
     flex-direction: column;
 }
 
-.footer-left img{
+.footer-left img {
     width: 152px;
     height: auto;
 }
 
-.footer-left h6{
+.footer-left h6 {
     width: 319px;
     height: 44px;
     margin: 31.5px 0 32.3px;
@@ -405,7 +422,7 @@ span:hover{
     padding-bottom: 32px;
 }
 
-.footer-left p{
+.footer-left p {
     width: 167px;
     height: 19px;
     margin: 10.7px 0 0;
@@ -413,19 +430,19 @@ span:hover{
     font-weight: bold;
 }
 
-.footer-mid{
+.footer-mid {
     display: flex;
     flex-direction: column;
     width: 300px;
 }
 
-.footer-mid-contents{
+.footer-mid-contents {
     display: flex;
     flex-flow: wrap column;
     height: 150px;
 }
 
-.footer-mid-contents p{
+.footer-mid-contents p {
     height: 19px;
     width: 110px;
     text-align: left;
@@ -433,47 +450,51 @@ span:hover{
     margin: 0 138px 14.3px 0;
 }
 
-span{
+span {
     width: 25%;
     height: 0;
     border-top: 3px solid #00dbd0;
     margin: 0 0 17.7px;
 }
 
-.footer-mid h2, .footer-right h2{
+.footer-mid h2, .footer-right h2 {
     width: 70px;
     margin: 0 105px 17.7px 1px;
     font-size: 16px;
     font-weight: bold;
 }
 
-.footer-right{
+.footer-right {
     display: flex;
     flex-direction: column;
 }
 
-.links{
+.links {
     display: flex;
     flex-direction: row;
 }
 
-.footer-right a{
+.footer-right a {
     width: 30.6px;
     height: 30.6px;
     margin-right: 20.1px;
     border-radius: 50%;
 }
 
-.link-facebook{
+.link-facebook {
     background-image: url(./images/Group99.png);
 }
-.link-linkedin{
+.link-linkedin {
     background-image: url(./images/Group100.png);
 }
-.link-twitter{
+.link-twitter {
     background-image: url(./images/twitter.png);
     background-size: cover;
 }
-.link-instagram{
+.link-instagram {
     background-image: url(./images/Group105.png);
+}
+
+@media screen and   {
+    
 }

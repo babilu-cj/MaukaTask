@@ -11,8 +11,8 @@ function Header() {
             </div>
             <div className="navbar-links">
                 <a href="/" >Home</a>
-                <a href="/" >Products</a>
-                <a href="/" >Blog</a>
+                <a href="#product" >Products</a>
+                <a href="#blog" >Blog</a>
                 <a href="/" >About Us</a>
                 <a href="/"  className="navbar-link-contact">Contact</a>
             </div>
