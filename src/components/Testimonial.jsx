@@ -1,5 +1,4 @@
 import React from "react"
-import dp from "../images/dp.png"
 import quotes from "../images/Group86.png"
 import NewCarousel from "./Carousel"
 
