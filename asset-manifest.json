@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/MaukaTask/static/js/main.9b3a6e4c.chunk.js",
+    "main.js.map": "/MaukaTask/static/js/main.9b3a6e4c.chunk.js.map",
+    "runtime-main.js": "/MaukaTask/static/js/runtime-main.5d2e6455.js",
+    "runtime-main.js.map": "/MaukaTask/static/js/runtime-main.5d2e6455.js.map",
+    "static/js/2.218f786f.chunk.js": "/MaukaTask/static/js/2.218f786f.chunk.js",
+    "static/js/2.218f786f.chunk.js.map": "/MaukaTask/static/js/2.218f786f.chunk.js.map",
+    "index.html": "/MaukaTask/index.html",
+    "static/js/2.218f786f.chunk.js.LICENSE.txt": "/MaukaTask/static/js/2.218f786f.chunk.js.LICENSE.txt",
+    "static/media/Group 228.317690fe.png": "/MaukaTask/static/media/Group 228.317690fe.png",
+    "static/media/Group134.efbd04e6.png": "/MaukaTask/static/media/Group134.efbd04e6.png",
+    "static/media/Group195.71ea1be1.png": "/MaukaTask/static/media/Group195.71ea1be1.png",
+    "static/media/blogimg1.b2a395fc.png": "/MaukaTask/static/media/blogimg1.b2a395fc.png",
+    "static/media/blogimg2.e116562b.png": "/MaukaTask/static/media/blogimg2.e116562b.png",
+    "static/media/blogimg3.e65011af.png": "/MaukaTask/static/media/blogimg3.e65011af.png",
+    "static/media/dp.b90238e1.png": "/MaukaTask/static/media/dp.b90238e1.png",
+    "static/media/dp3.e7fbf2e7.jpg": "/MaukaTask/static/media/dp3.e7fbf2e7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d2e6455.js",
+    "static/js/2.218f786f.chunk.js",
+    "static/js/main.9b3a6e4c.chunk.js"
+  ]
+}
